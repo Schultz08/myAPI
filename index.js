@@ -79,7 +79,8 @@ function displayResults(json)
 
        //gets "random" number
        let number = Math.floor(Math.random()* 23);
-       cardFront.style.background = `url(assets/cardBackGround/cardBackground${number}.jpg) no-repeat`;
+    
+       cardFront.style.background = `url(assets/cardBackGround/CardBackground${number}.jpg) no-repeat`;
        cardFront.style.backgroundSize = "100% 100%";
 
        movieName.textContent = current.title;
